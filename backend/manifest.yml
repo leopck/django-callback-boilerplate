@@ -1,0 +1,7 @@
+
+---
+applications:
+- name: hello-world-django
+  memory: 512M
+  command: src/manage.py runserver 0.0.0.0:$PORT
+  buildpack: python_buildpack
